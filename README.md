@@ -66,7 +66,7 @@ Remember to modify `--dataset_dir` and `--dump_root` to your own. The ground tru
 
 
 ## Weights
-You can download model weights in this [link](https://www.dropbox.com/scl/fo/0zeefm9e4kv0fzumqp490/h?rlkey=ev09rshvarnoyj9kr1qymkppl&dl=0), including three checkpoint files:
+You can download model weights in this [link](https://www.dropbox.com/scl/fo/ywzbrax06s93a9ikaw4i9/AAnzIiPfgS8fQ1b4ePczMig?rlkey=t1mkhrgkenuqkj69zvu753xrz&st=436zhim0&dl=0), including three checkpoint files:
 * Pretrained MPViT on ImageNet:   `mpvit_xsmall.pth` 
 * Our final KITTI model (640×192) with an MPViT-xs backbone, trained on monocular (M) videos: `kitti_m_mpvit_640x192`  
 * Our final KITTI model (640×192) with an MPViT-xs backbone, trained on both monocular and stereo (MS) images: `kitti_ms_mpvit_640x192`  
@@ -171,4 +171,5 @@ Here the `--image_path` flag should be a directory containing several video fram
 We have used codes from other wonderful open-source projects,
 [SfMLearner](https://github.com/tinghuiz/SfMLearner/tree/master),
 [Monodepth2](https://github.com/nianticlabs/monodepth2), [ManyDepth](https://github.com/nianticlabs/manydepth),[StructDepth](https://github.com/SJTU-ViSYS/StructDepth), [PlaneDepth](https://github.com/svip-lab/PlaneDepth) and [RA-Depth](https://github.com/hmhemu/RA-Depth). Thanks for their excellent works!
+
 
